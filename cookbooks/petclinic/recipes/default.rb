@@ -18,7 +18,7 @@ end
 
 remote_file '/opt/tomcat_petclinicserver_8_0_36/webapps/petclinic.war' do
     source
-    'http://localhost:8081/libs-snapshot-local/org/springframework/samples/spring-petclinic/1.0.1-SNAPSHOT/spring-petclinic-1.0.1-20180614.015744-1.war'
+    'http://35.196.3.240:8081/libs-snapshot-local/org/springframework/samples/spring-petclinic/1.0.1-SNAPSHOT/spring-petclinic-1.0.1-20180614.182937-2.war
     owner 'tomcat_petclinicserver'
     group 'tomcat_petclinicserver'
 end
